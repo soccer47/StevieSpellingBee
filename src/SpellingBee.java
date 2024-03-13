@@ -53,7 +53,7 @@ public class SpellingBee {
     // SubCreate takes in a String (the current variation of the letters)
     // Also takes in the remaining letters from the input that still can be used
     public void subCreate(String s, String remainders) {
-        // If all of the letters from the input have been used, return
+        // If all the letters from the input have been used, return
         if (remainders.isEmpty()){
             return;
         }
